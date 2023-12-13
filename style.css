@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(14, 185, 105);
+    height: 100vh;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 300px;
+    width: 5px;
+    background-color: whitesmoke;
+    margin-top: 240px;
+}
+.h1Content{
+    margin-left: 120px;
+    margin-top: -330px;
+    font-size: 70px;
+}
+.content{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.containerData{
+    width:500px;
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    height: 350px;
+}
+img{
+    border-radius: 50px;
+}
+h2{
+    font-family: cursive;
+}
+input{
+    border: 1px solid gray;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding: 10px;
+}
+button{
+    background-color: rgb(14, 185, 105);
+    border-radius: 5px;
+    color: whitesmoke;
+    border: 0px solid rgb(14, 185, 105);
+    text-transform: capitalize;
+    padding: 8px;
+}
+#msg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(213, 223, 223);
+}
+#score{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#actualScore{
+    background-color: rgb(213, 223, 223);
+    padding-top: 5px;
+    margin-top: -15px;
+}
